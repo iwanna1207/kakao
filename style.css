@@ -1,0 +1,115 @@
+*{
+    margin:0; padding:0; font-family:'나눔고딕';
+}
+body{
+    margin:0; padding:0; background:gray;
+}
+#page{
+    width:960px;
+    background:white; margin:50px auto; padding:20px;
+    box-shadow: 10px 10px 10px black;
+}
+#top{
+    text-align:center;
+    width:920px;
+    margin:20px 0px;
+    padding:20px;
+    background:rgb(214, 255, 153);
+}
+#bottom{
+    text-align:center; padding:20px;
+}
+a{
+    text-decoration:none; font-size:20px; color:black; padding:5px;
+}
+a:hover{
+    background:black; color:rgb(214, 255, 153);
+}
+.subject{
+    margin:20px;
+    text-align:center;
+}
+#divSearch{
+    overflow:hidden;
+    box-shadow:0px 0px 2px rgb(180, 180, 180);
+    width:700px; border:3px solid rgb(199, 255, 115); padding:5px;
+    margin:20px auto;
+}
+#tbl{
+    width:900px; border:0;
+    box-shadow:3px 3px 7px gray;
+    margin:0 auto; padding:0;
+}
+.title td{
+    text-align:center;
+    font-size:18pt;
+    font-weight:bold;
+    margin:0; padding:5px;
+    background:rgb(214, 255, 153);
+}
+.row td{padding:5px;
+    background:white;
+}
+.row td a{
+    font-size:14pt;
+}
+
+#divPage{
+    margin:20px auto;
+    text-align:center;
+}
+#divPage button{
+    padding:5px 10px;
+    border:1px solid black;
+    background:white;
+    color:greenyellow;
+    border-radius:3px;
+}
+#divPage button:hover{
+    background:black;
+    color:white;
+}
+#divPage button:disabled{
+    display:none;
+}
+
+#searchLeft{
+    float:left;
+}
+#txtQuery{
+    width:350px; padding:5px;
+}
+#btnSearch{
+    padding:5px;
+}
+#searchRight{
+    float:right;
+}
+#selSize{
+    padding:5px;
+}
+#pageNum{
+    padding:5px;
+}
+
+#darken-background {
+    position:absolute;
+    top:0px;
+    left:0px;
+    right:0px;
+    height:100%;
+    display:none;
+    background:rgba(0, 0, 0, 0.5);
+    z-index:10000;
+    overflow-y:scroll;
+}
+#lightbox {
+    width:700px;
+    margin:150px auto;
+    padding:15px;
+    border: 1px solid #333333;
+    border-radius:5px;
+    background:white;
+    box-shadow:0px 5px 5px rgba(34, 25, 25, 0.4);
+    text-align:center;
+}
